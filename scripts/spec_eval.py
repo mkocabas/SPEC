@@ -26,6 +26,7 @@ def main(hparams):
 
     logger.info(f'Hyperparameters: \n {hparams}')
 
+    hparams.DATASET.NUM_WORKERS = -1 # set this to be compatible with other machines
     model = SPECTrainer(hparams=hparams).to(device)
 
     # TRAINING.PRETRAINED_LIT points to the checkpoint files trained using this repo
