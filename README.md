@@ -183,6 +183,7 @@ Here are some great resources we benefit:
 
 - Pano360 dataset preprocessing is borrowed from [Single View Metrology in the Wild](https://github.com/Jerrypiglet/ScaleNet).
 - Most of the utility functions depends on our another paper [PARE](github.com/mkocabas/PARE).
+- Some functions are borrowed from [SPIN](https://github.com/nkolot/SPIN).
 
 Consider citing these works if you use them in your project.
 
