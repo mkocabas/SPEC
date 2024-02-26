@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-wget https://www.dropbox.com/s/i5tnuael9fogw16/spec-github-data.zip
+pip install gdown
+gdown 1o4-ilb3GF7CqH0LWI6RE7fRWQ6qEyDzE
 unzip spec-github-data.zip
 mkdir data/dataset_folders
 rm spec-github-data.zip
